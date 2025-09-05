@@ -6,10 +6,9 @@ const code3 = 79 % 40;
 
 const message = "The vault has been secured. The combination is:";
 
-const codeA = message + code1 + "-" + code2 + "-" + code3;
+const codeA = code1 + "-" + code2 + "-" + code3;
 
 const codeB = `${code1}-${code2}-${code3}`;
 
-console.log(message);
-console.log(codeA);
+console.log(message, codeA);
 console.log(codeB);
